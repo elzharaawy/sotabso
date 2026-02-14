@@ -1,7 +1,0 @@
-async function MyComponent() {
-  const message = await fetchMessageFromDb();
-
-  return (
-    <div>Message: {message}</div>
-  );
-}
