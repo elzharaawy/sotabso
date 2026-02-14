@@ -1,0 +1,4 @@
+node_modules/*
+.env
+requests.rest
+blogsite-a9422-firebase-adminsdk-*.json
