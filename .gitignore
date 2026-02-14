@@ -2,4 +2,6 @@ node_modules/*
 
 .env
 
+requests.rest
 
+server/blogsite-a9422-firebase-adminsdk-fbsvc-c271048519.json
