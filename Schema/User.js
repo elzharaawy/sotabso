@@ -35,6 +35,10 @@ const userSchema = mongoose.Schema({
                 return `https://api.dicebear.com/6.x/${profile_imgs_collections_list[Math.floor(Math.random() * profile_imgs_collections_list.length)]}/svg?seed=${profile_imgs_name_list[Math.floor(Math.random() * profile_imgs_name_list.length)]}`
             } 
         },
+        profile_img_public_id: {
+            type: String,
+            default: null,
+        },
     },
     admin:{
         type:Boolean,
